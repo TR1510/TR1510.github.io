@@ -2,11 +2,16 @@
 <html lang="nl" dir="ltr">
   <head>
     <link rel="stylesheet" href="master.css">
+    <link rel="icon" type="image/x-icon" href="images/PNG/favicon.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Home | Verbeek Interieurschrijnwerk</title>
   </head>
   <body>
+    <div class="overlay">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
     <img class="burger_menu" src="images/SVG/Icon feather-menu.svg" alt="" onclick="openNav()">
     <div id="mySidenav" class="sidenav">
       <div class="">
@@ -33,8 +38,8 @@
           </div>
         </div>
         <div class="mobile_social_media">
-          <a href="http://www.instagram.com" target="_blank"><img src="images/SVG/awesome-instagram_gold.svg" alt="Instagram"></a>
-          <a href="http://www.facebook.com" target="_blank"><img src="images/SVG/awesome-facebook-f_gold.svg" alt="Facebook"></a>
+          <a href="https://www.instagram.com/verbeek_interieurschrijnwerk/" target="_blank"><img src="images/SVG/awesome-instagram_gold.svg" alt="Instagram"></a>
+          <a href="https://www.facebook.com/verbeekinterieurschrijnwerk" target="_blank"><img src="images/SVG/awesome-facebook-f_gold.svg" alt="Facebook"></a>
         </div>
       </div>
     </div>
@@ -55,8 +60,8 @@
             </div>
           </div>
           <div class="top_menu_social_media">
-            <a href="http://www.instagram.com" target="_blank"><img src="images/SVG/awesome-instagram.svg" alt="Instagram"></a>
-            <a href="http://www.facebook.com" target="_blank"><img src="images/SVG/awesome-facebook-f.svg" alt="Facebook"></a>
+            <a href="https://www.instagram.com/verbeek_interieurschrijnwerk/" target="_blank"><img src="images/SVG/awesome-instagram.svg" alt="Instagram"></a>
+            <a href="https://www.facebook.com/verbeekinterieurschrijnwerk" target="_blank"><img src="images/SVG/awesome-facebook-f.svg" alt="Facebook"></a>
           </div>
         </div>
         <hr>
@@ -73,54 +78,46 @@
           </div>
         </div>
     </header>
+    <a class="btn-scroll" href="#section_2"><img alt="" src="images/SVG/Icon ionic-ios-arrow-back.svg"></a>
     <div class="front">
-      <img src="images/PNG/front_example.png" alt="">
+      <img src="images/JPG/front_banner.jpg" alt="">
     </div>
-    <div class="body_home">
-      <h4>ONZE DIENSTEN:</h4>
+    <div id="section_2" class="body_home">
+      <h4 >ONZE DIENSTEN:</h4>
       <div class="diensten">
         <div class="diensten_block_side">
           <h5>KEUKENS</h5>
-          <img src="images/PNG/onze_diensten_01.png" alt="diensten">
+          <img src="images/JPG/dienst_1.jpg" alt="diensten">
         </div>
         <div class="diensten_block">
-          <h5>KEUKENS</h5>
-          <img src="images/PNG/onze_diensten_01.png" alt="diensten">
+          <h5>INBOUWKASTEN</h5>
+          <img src="images/JPG/dienst_2.jpg" alt="diensten">
         </div>
         <div class="diensten_block">
-          <h5>KEUKENS</h5>
-          <img src="images/PNG/onze_diensten_01.png" alt="diensten">
+          <h5>BADKAMERMEUBELS</h5>
+          <img src="images/JPG/dienst_3.jpg" alt="diensten">
         </div>
         <div class="diensten_block">
-          <h5>KEUKENS</h5>
-          <img src="images/PNG/onze_diensten_01.png" alt="diensten">
+          <h5>BINNENDEUREN</h5>
+          <img src="images/JPG/dienst_6.jpg" alt="diensten">
         </div>
         <div class="diensten_block_side">
-          <h5>KEUKENS</h5>
-          <img src="images/PNG/onze_diensten_01.png" alt="diensten">
+          <h5>HOUTEN POORTEN</h5>
+          <img src="images/JPG/dienst_7.jpg" alt="diensten">
         </div>
       </div>
       <div class="realisaties">
         <h4>REALISATIES:</h4>
-        <div>
-          <img src="images/PNG/onze_diensten_01.png" alt="realisaties">
-          <img src="images/PNG/onze_diensten_01.png" alt="realisaties">
-          <img src="images/PNG/onze_diensten_01.png" alt="realisaties">
-          <img src="images/PNG/onze_diensten_01.png" alt="realisaties">
-          <img src="images/PNG/onze_diensten_01.png" alt="realisaties">
-          <img src="images/PNG/onze_diensten_01.png" alt="realisaties">
-          <img src="images/PNG/onze_diensten_01.png" alt="realisaties">
-          <img src="images/PNG/onze_diensten_01.png" alt="realisaties">
-          <img src="images/PNG/onze_diensten_01.png" alt="realisaties">
+        <div class="realisatie_container">
+          <div id="instafeed"></div>
+          <img src="images/SVG/Icon ionic-ios-more.svg" alt="more">
         </div>
-        <img src="images/SVG/Icon ionic-ios-more.svg" alt="more">
-      </div>
     </div>
     <footer>
       <div class="main_footer">
         <div class="footer_column">
           <a href="index.html"><img src="images/SVG/logo_220310_2-14.svg" alt="main_logo"></a>
-          <h6>Brusselsesteenweg 306<br>3020 Herent<br>(+32) 475 96 54 41<br>info@verbeekinterieur.be<br><a href="http://www.instagram.com" target="_blank">Instagram</a><br><a href="http://www.facebook.com" target="_blank">Facebook</a></h6>
+          <h6>Brusselsesteenweg 306<br>3020 Herent<br>(+32) 475 96 54 41<br>info@verbeekinterieur.be<br><a href="https://www.instagram.com/verbeek_interieurschrijnwerk/" target="_blank">Instagram</a><br><a href="https://www.facebook.com/verbeekinterieurschrijnwerk" target="_blank">Facebook</a></h6>
         </div>
         <div class="footer_column">
           <p class="h7">NAVIGATIE</p>
@@ -141,5 +138,8 @@
       </div>
     </footer>
     <script type="text/javascript" src="scripts/nav_menu.js"></script>
+    <script type="text/javascript" src="scripts/page_loader.js"></script>
+	  <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+    <script type="text/javascript" src="scripts/insta_feed.js"></script>
   </body>
 </html>
